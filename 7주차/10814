@@ -1,0 +1,17 @@
+n = int(input())
+lst_age = []
+students = {}
+for i in range(n):
+    age, name = input().split()
+    age = int(age)
+    if age not in lst_age:
+        lst_age.append(age)
+    if age in students:
+        students[age].append(name)
+    else:
+        students[age] = [name]
+    
+lst_age.sort()
+for age in lst_age:
+    for name in students[age]:
+        print(age, name)
