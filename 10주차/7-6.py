@@ -1,3 +1,5 @@
+### 링크드 최대 합 구현 ###
+
 class Node:
     def __init__(self, item):
         self.data = item
