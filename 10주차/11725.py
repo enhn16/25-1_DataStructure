@@ -1,3 +1,5 @@
+### 노드의 부모 찾기 ###
+
 import sys
 sys.setrecursionlimit(10**6) #제귀 제한 늘리기
 
