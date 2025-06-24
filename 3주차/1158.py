@@ -1,3 +1,5 @@
+### 요세푸스 문제 ###
+
 def josephus(n, k):
     lst = [i for i in range(1, n+1)] #함축을 이용해 리스트에 숫자 저장
     result = [] #결과를 저장할 리스트
