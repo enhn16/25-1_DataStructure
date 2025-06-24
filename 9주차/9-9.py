@@ -1,3 +1,5 @@
+### Prim의 방법으로 최소비용 신장트리 탐색 ###
+
 class Node:
     def __init__(self, value):
         self.data = value
