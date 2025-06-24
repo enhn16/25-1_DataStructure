@@ -1,3 +1,5 @@
+### 최대값 우선 선택 정렬 ###
+
 def SelectionSort(num, n):
     for i in range(n, 0, -1):
         mx = i
