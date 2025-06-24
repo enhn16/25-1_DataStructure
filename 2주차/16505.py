@@ -1,3 +1,5 @@
+### 별 찍기 ###
+
 def draw_star(n):
     result = []
     if n == 0:
