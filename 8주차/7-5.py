@@ -1,3 +1,5 @@
+### 배열에 최대 힙 저장 ###
+
 class Heap:
     def __init__(self):
         self.heap = [0] #인덱스 오류 방지 위한 초기화
