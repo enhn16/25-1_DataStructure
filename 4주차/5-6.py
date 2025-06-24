@@ -1,3 +1,5 @@
+### 단일 연결리스트 전체 삭제 ###
+
 class Node:
     def __init__(self, item):
         self.data = item
